@@ -1,3 +1,23 @@
 body {
-    background-color: beige;
+    background-color: #d3e6a3;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(226, 131, 7);
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(226, 131, 7)
+}
+
+.cookies {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
