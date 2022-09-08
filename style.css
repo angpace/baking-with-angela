@@ -1,23 +1,28 @@
+
 body {
-    background-color: #d3e6a3;
+    background-image: url(https://img.freepik.com/premium-photo/top-view-dough-ingredients-with-copy-space_23-2148365484.jpg?w=2000);
+    background-color: #f4f6f0;
+
 }
 
 h1 {
     text-align: center;
-    color: rgb(226, 131, 7);
     text-decoration: underline;
-    font-style: italic;
-    
+    color: #98b165;
 }
 
-h3 {
+.box {
+    padding: 200px;
+    margin: 50px;
+    background-color: #f4f6f0;
+}
+
+.box p {
     text-align: center;
+}
+
+.guess {
+    display: block;
     font-style: italic;
     color: rgb(226, 131, 7)
-}
-
-.cookies {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
