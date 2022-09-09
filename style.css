@@ -7,14 +7,23 @@ body {
 
 h1 {
     text-align: center;
-    text-decoration: underline;
     color: #98b165;
+    font-family: cursive;
+    font: 700px;
+    background-color: cornsilk;
+    margin: 50px;
 }
 
 .box {
     padding: 200px;
     margin: 50px;
-    background-color: #f4f6f0;
+    background-color: cornsilk;
+    display: inline-block;
+
+}
+
+.harry {
+    text-align: center;
 }
 
 .box p {
@@ -22,7 +31,7 @@ h1 {
 }
 
 .guess {
-    display: block;
+    text-align: center;
     font-style: italic;
     color: rgb(226, 131, 7)
 }
