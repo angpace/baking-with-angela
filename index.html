@@ -9,14 +9,14 @@
         
     </div>
     <div class="box" >
-        <h1>Baking with Angela</h1>
-        <p> Baking has always been a serious passion of mine. I've always enjoyed sharing my favorite recipes, tips and tricks- and contrary to popular belief, it doesnt take magic to make your sweet treats delicious...although if you have access to some magic, it wouldn't hurt!</p>
-       <p>
-       <div class="harry" > <img src=https://data.whicdn.com/images/31766966/original.gif alt="harry potter cake" />
-       </div>
-        <a class="guess" href=https://images.aws.nestle.recipes/original/5b069c3ed2feea79377014f6766fcd49_Original_NTH_Chocolate_Chip_Cookie.jpg>Can you guess what we'll be baking together?</a>
-       </p>
-       <div> <h3> If you guested Chocolate Chip Cookies, you're right!</h3>
+        <h1 id = "title" onmouseover="changebackground()"> Baking with Angela</h1>
+        <p> Baking has always been a serious passion of mine. I've always enjoyed sharing my favorite recipes, tips and tricks- and contrary to popular belief, you don't need any magic to make your sweet treats delicious. All you need is the right recipe and patience!</p>
+       <div class="harry" > <img src=https://media3.giphy.com/media/jxrNVR8vqHjby3Bpp7/giphy-downsized-large.gif alt="harry potter cake" />
+    </div>
+    <p>One of my favorite treats are homemade chocolate chip cookies. They're easy to make and packed with sweet nostalgia.</p>
+     <div class="guess"> <img src=https://media1.giphy.com/media/xT0xeMA62E1XIlup68/giphy.gif alt="Choco cookies"/>
+     </div>
+       <div> <h3>Chocolate Chip Cookies, here we come!</h3>
     
        </div>
        <div class="recipe" >
@@ -70,10 +70,12 @@
                     <li>Combine all dry goods together first, then all at once into the mix.</li>
                     <li>Add your Chocolate Chips and mix until just homogenous.</li>
                     <li>Scoop and bake @ 325F/160C.</li>
-                    <li>Enjoy!</li>
+                    <li><button onclick="revealMessage()">Enjoy!</button>
+                        <p id="hidden" style="display:none" >and remember to share!</p></li>
                 </ol>
             </div>
     </div>
+    
 
     <script src="script.js"></script>
   </body>

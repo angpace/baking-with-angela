@@ -7,17 +7,17 @@ body {
 
 h1 {
     text-align: center;
-    color: #98b165;
+    color: rgb(224, 212, 197);
     font-family: cursive;
-    font: 700px;
-    background-color: cornsilk;
-    margin: 50px;
+    font: 800x;
+    background-color:rgb(224, 212, 197) ;
+    margin: 60px;
 }
 
 .box {
     padding: 100px;
     margin: 50px;
-    background-color: cornsilk;
+    background-color: rgb(224, 212, 197);
     display: inline-block;
 
 }
@@ -32,6 +32,8 @@ h1 {
 
 .guess {
     text-align: center;
-    font-style: italic;
-    color: rgb(226, 131, 7)
+}
+
+h3 {
+    color:rgb(161, 93, 93);
 }
